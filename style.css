@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #372415;
+    font-size: 18px;
+    cursor: default;
+}
+
+@font-face{
+    font-family: Carbon;
+    src:url(fonts/carbon\ bl.ttf);
+}
+
+@font-face{
+    font-family: Berkshire Swash;
+    src: url(fonts/BerkshireSwash-Regular.ttf);
+}
+
+@font-face{
+    font-family: Cinzel;
+    src: url(fonts/Cinzel-SemiBold.ttf);
+}
+
+.banner{
+    background-image: linear-gradient(rgba(55, 36, 21, 0.5), rgba(55, 36, 21, 0.9)), url(assets/img-cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 100px;
+}
+
+.bn-content h1{
+    font-family: Carbon;
+    font-size: 68px;
+    letter-spacing: 2px;
+    color: #ffe6d2;
+    margin: 50px 0px;
+}
+
+.bn-content h2{
+    font-family: Berkshire Swash;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #dec7b5;
+}
+
+.bn-content h4{
+    font-family: Cinzel;
+    font-size: 22px;
+    font-style: italic;
+    color: #eff0f2;
+    margin-top: 40px;
+    text-indent: 5rem;
+    /* 1rem=16px */
+}
+
+.bn-content p{
+    color: #eff0f2;
+    margin: 45px 0px 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+strong{
+    font-size: 24px;
+}
+
+strong:hover{
+    color: #ffe6d2;
+    font-size: 25px;
+    /* surprise hover action on company name! */
+}
+
+.bn-btn{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.btn{
+    border: 1px solid #dec7b5;
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:link, .btn:visited {
+    background-color: #78503e;
+    color: #dec7b5;
+}
+
+.btn:hover{
+    background-color: #dec7b5;
+    color: #78503e;
+    border-color: #78503e;
+    /* inverts button colours on hover */
+}
+
+.btn:active{
+    text-decoration: underline;
+    /* underlines button text on click */
+}
+
+.info{
+    margin: auto 30px;
+}
+
+.info h2{
+    font-family: Cinzel;
+    font-size: 36px;
+    color: #ffe6d2;
+    margin: 25px auto 15px;
+}
+
+.info p{
+    color: #dec7b5;
+    text-align: justify;
+}
+
+.info img{
+    float: right;
+    margin: 15px 0px 15px 30px;
+    filter: brightness(75%);
+}
+
+.info h3{
+    font-family: Cinzel;
+    font-size: 24px;
+    color: #d8b091;
+    margin: 20px auto 15px;
+}
+
+#branch p{
+    margin: 12px auto;
+    text-indent: 1rem;
+}
+
+hr{
+    border: 1px solid #a28973;
+}
